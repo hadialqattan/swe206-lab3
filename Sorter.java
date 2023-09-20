@@ -8,7 +8,7 @@ class Sorter {
     }
 
     public void sort(int[] arr, int x) {
-        insertionSort(arr);
+        insertionSort(arr, x);
     }
 
     public void selectionSort(int[] arr) {
