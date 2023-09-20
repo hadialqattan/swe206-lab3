@@ -10,4 +10,8 @@ class Sorter {
     public void selectionSort(int[] arr){
         // Implementation goes here...
     }
+
+    public void sort(int[] arr){
+        insertionSort(arr);
+    }
 }
