@@ -3,7 +3,11 @@ class Sorter {
 		
 	}
 
-    public void  insertionSort(int array[]){
+    public void  insertionSort(int[] arr) {
         //implementation
+    }
+
+    public void selectionSort(int[] arr){
+        // Implementation goes here...
     }
 }
