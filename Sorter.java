@@ -1,17 +1,21 @@
 class Sorter {
-    public static void main(String[] args){
-		
-	}
+    public static void main(String[] args) {
 
-    public void  insertionSort(int[] arr) {
-        //implementation
     }
 
-    public void selectionSort(int[] arr){
+    public void insertionSort(int[] arr, int x) {
+        // implementation
+    }
+
+    public void sort(int[] arr, int x) {
+        insertionSort(arr);
+    }
+
+    public void selectionSort(int[] arr) {
         // Implementation goes here...
     }
 
-    public void sort(int[] arr){
-        insertionSort(arr);
+    public void sort(int[] arr) {
+        selectionSort(arr);
     }
 }
